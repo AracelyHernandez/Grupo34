@@ -1,5 +1,7 @@
-artistas = ["Bandalos chinos","Latin mafia","Harry style","Empire of the sun","Rusowky"]
 
-artistas.extend(["Nskq","One direction"])
+artistas = ["Bandalos chinos","Latin mafia","Harry style","Empire of the sun","Rusowky""Nskq","One direction"]
 
-print(artistas)
+artistas.remove("Empire of the sun")
+
+for i, artista in enumerate(artistas):
+    print(i + 1, artista)
